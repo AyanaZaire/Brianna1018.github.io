@@ -1,118 +1,206 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Ollie Bike Sharing</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BOOTSTRAP LINKS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- MAIN.CSS LINK  -->
+  <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 <body>
-<h1>Brianna's Website</h1>
-  <h2>Be natural, feel natural! Beauty lies skin deep!</h2>
-  <h4>This is my h4 header</h4>
-  <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a <a href= "https://Brianna1018.github.io" > list</a> of cities where you can find us.
-  <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/bikes1.jpg"/>
-    <img src="https://ca.slack-edge.com/TUB168VFW-UTZMKE2GJ-2743c47712fd-512"/>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Ollie Bike Sharing</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-  <div class="container">
-    <div class="nav">
-      <h2>Ollie</h2>
-      <ul>
-        <li>sign up</li>
-        <li>search bikes</li>
-        <li>reserve a bike</li>
-        <li>about us</li>
-      </ul>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> Bria's Beauty Blog </a>
     </div>
-    <div class="main">
-      <h1>Ollie Bike Sharing</h1>
-      <h3>Share Your Pedals with the World.</h3>
-      <p>Need a set of wheels while you're in town? Use Ollie to pair your perfect vacation with a stylish, affordable bike rental. Here is a <a href="cities.html">list</a> of cities where you can find us.</p>
-      <video width="320" height="240" controls>
-        <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4" type="video/mp4">
-      </video>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">Skin Care</a></li>
+        <li><a href="#work">Hair Care</a></li>
+        <li><a href="#values">Tricks</a></li>
+        <li><a href="#contact">From Women To Women</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Contact</a></li>
+      </ul>
     </div>
   </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html>...</html>
-<head>...</head>
-<title>...</title>
-<meta charset="utf-8"/>
+</nav>
 
-<html>
-<head>
-    <title>Tundra Gallery</title>
-    <meta charset="utf-8"/>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="main.css">
-</head>
+<!-- YOUR CAROUSEL STARTS HERE -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<body>
-    <header>
-      <h1 class="page-title">TUNDRA GALLERY</h1>
-      <p class="page-description">The Tundra Gallery is a collection of photographs from three distinct areas: arctic tundra, alpine tundra, and antarctic tundra. In tundra, the vegetation is composed of dwarf shrubs, sedges and grasses, mosses, and lichens, making for diverse ecology and stunning photos. </p>
-    </header>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-    <div class="gallery">
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss1.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss2.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss3.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss4.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss5.jpg">
-      </figure>
-      <figure class="gallery-item">
-        <img class="thumbnail" src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/moss6.jpg">
-      </figure>
+      <!-- SLIDE 1 -->
+      <div class="item active">
+        <img src="https://placehold.it/1200x400?text=IMAGE 1" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 1</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=IMAGE 2" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 2</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=IMAGE 3" alt="Image">
+        <div class="carousel-caption">
+          <h3>TITLE FOR SLIDE 3</h3>
+          <p>Desription</p>
+        </div>
+      </div>
+
     </div>
 
-      <nav>
-      <ul>
-        <li><a href="#"><b>Arctic</b></a></li>
-        <li><a href="#">Alpine</a></li>
-        <li><a href="#">Antarctic</a></li>
-      </ul>
-      <div class="contact-btn"><a>Contact</a>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- YOUR CAROUSEL ENDS HERE -->
+
+<br><br><br>
+
+
+<!-- YOUR "ABOUT" SECTION -->
+  <a id="about"></a>
+  <div class="container text-center">
+    <h2>About</h2>
+    <br><br>
+    <p>
+My idea is a skin and hair care improvement website, in which I provide tips and tricks on how to prevent damage and maintain the health of your skin and hair. I will also provide products to help soothe the needs of my customers and followers. I aim to help guide women with health tips and tricks to help improve their hair or skin care situations, like if they have acne or damaged hair.I want this website to help women who have problems with their skin and/or their hair so that over time they can have more confidence and lead to a healthier appearance and lifestyle.  The tagline of my website is “When you think Beauty, Think Us!” This idea came to me because this is what I currently struggle with at the moment and it would be nice to also help give people tips on how to improve their situation if they are in the same position.
+</p>
+  </div>
+<!-- END OF "ABOUT" SECTION -->
+
+<br><br><br>
+
+<!-- START OF "WHAT WE DO" SECTION -->
+<a id="work"></a>
+<div class="container text-center">
+  <h3>What We Do</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://images.unsplash.com/photo-1573165349168-b66c8bc087fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>Project 2</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <br>
+      <p>Project 1</p>
+    </div>
+  </div>
+</div>
+<!-- END OF "WHAT WE DO" SECTION -->
+
+<br><br><br>
+
+<!-- YOUR "VALUES" SECTION -->
+  <a id="values"></a>
+  <div class="container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h3>Our Values</h3>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 1</h4>
+          <p>Some text...</p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 2</h4>
+          <p>Some text...</p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Value 3</h4>
+          <p>Some text...</p>
+        </div>
       </div>
-    </nav>
-  </body>
+    </div>
+</div>
+<br><br><br>
+<!-- END OF "VALUES" SECTION -->
+
+<br><br><br>
+
+<!-- HERE IS WHERE YOUR VIDEO SECTION BEGINS -->
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="https://placehold.it/150x80?text=VIDEO" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-6">
+      <h4>Learn More Section</h4>
+      <br>
+      <p>Tell us more about your idea...</p>
+    </div>
+  </div>
+</div>
+<!-- HERE IS WHERE YOUR VIDEO SECTION ENDS -->
+
+<br><br><br>
+
+<!-- YOUR "FOOTER" SECTION -->
+<footer>
+<a id="contact"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Contact</h4>
+        <br>
+        <p>Hours of Operation?</p>
+        <br><br>
+        <p>Your Email</p>
+        <p>100 Buford Rd, Bon Air, VA 23235</p>
+        <p>(804)-555-5555</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="https://placehold.it/150x80?text=LOGO" class="img-responsive" style="width:50%" alt="Image">
+        <br><br>
+        <p>A concluding tagline about your idea. Vision Statement?</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END OF "FOOTER" SECTION -->
+
+</body>
 </html>
-
-
-
-
-TITLE: Natural skin and hair care products/info
-
-
-INTRO
-My idea is a skin and hair care improvement website, in which I provide tips and tricks on how to prevent damage and maintain the health of your skin and hair. I will also provide products to help soothe the needs of my customers and followers. Like for example, if you lack protein in your hair and your hair is brittle, I will provide a natural protein treatment hair mask. I aim to help guide women with health tips and tricks to help improve their hair or skin care situations, like if they have acne or damaged hair.I want this website to help women who have problems with their skin and/or their hair so that over time they can have more confidence and lead to a healthier appearance and lifestyle.  The tagline of my website is “When you think Beauty, Think Us!” This idea came to me because this is what I currently struggle with at the moment and it would be nice to also help give people tips on how to improve their situation if they are in the same position.
-BODY
-
-Basically, my website will have a first open up to show you a run down of our services and what we do. Then it will give you an option to look for tips, tricks, products, and a section called “From Women To Women”. This section gives you reviews and other tips I may have left out from other women like you! The tips section gives you tips for hair and skin care and is labeled by the difficulty you are having. Tricks sections give you ticks and different things you can do with your hair that can benefit you. The product sections show you handmade products that can benefit you. My website serves all women who want to have beautiful skin and healthy hair. It helps people of the community who suffer from a lack of confidence and self esteem issues to feel more comfortable in their own skin and feel pretty and also increases the health of the hair and skin.  I will need money in order to make the products and for shipping and handling from the products. I will also need a support team to be fact checked.
-
-
-Brianna's World?
-
-CONCLUSION
-
-
-
- In conclusion, my website will benefit many women by helping guide them to a healthier way in taking care of their skin and hair. This will lead them to more beautiful skin and healthier hair. I know my business will be a success when women listen to my tips and I start seeing a flourish in the beauty industry.
