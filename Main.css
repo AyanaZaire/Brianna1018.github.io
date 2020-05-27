@@ -1,13 +1,13 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  color: Purple;
+  background-color: purple;
   margin-bottom: 0;
   border-radius: 0;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: #Purple;
+  background-color: purple;
   padding: 25px;
 }
 
