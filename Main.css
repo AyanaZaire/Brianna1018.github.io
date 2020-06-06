@@ -1,20 +1,23 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  background-color: purple;
+  background-color: orange;
   margin-bottom: 0;
   border-radius: 0;
+  text-emphasis-color: yellow;
 }
 
 /* Add a gray background color and some padding to the footer */
 footer {
-  background-color: purple;
-  padding: 25px;
+  background-color: orange;
+  text-decoration-color: black;
+  padding: 10px;
 }
 
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
-  min-height:200px;
+  min-height:50px;
+  max-height: 700px;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
