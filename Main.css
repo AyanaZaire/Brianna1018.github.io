@@ -4,6 +4,7 @@
   margin-bottom: 0;
   border-radius: 0;
   text-emphasis-color: yellow;
+  column-rule-color: orange
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -20,8 +21,14 @@ footer {
   max-height: 700px;
 }
 
+.carousel-text {
+  color: white;
+  text-shadow: black;
+  text-align-last: center;
+  text-decoration-style: double;
+}
 /* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 .carousel-caption {
   display: none;
 }
