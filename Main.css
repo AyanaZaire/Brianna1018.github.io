@@ -4,7 +4,15 @@
   margin-bottom: 0;
   border-radius: 0;
   text-emphasis-color: yellow;
-  color: black;
+  color: orange;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://ca.slack-edge.com/TUB168VFW-UTZMKE2GJ-f21cea181461-512background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -12,6 +20,7 @@ footer {
   background-color: orange;
   text-decoration-color: black;
   padding: 20px;
+  color: orange;
 }
 
 .carousel-inner img {
