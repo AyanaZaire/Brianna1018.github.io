@@ -1,21 +1,4 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
-body, html {
-  height: 100%;
-}
-.bg {
-  /* The image used */
-  background-image: url("https://ca.slack-edge.com/TUB168VFW-UTZMKE2GJ-7d9b47243fd4-512 page/img(20).jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-Half Page Background
-
 .navbar {
   background-color: orange;
   margin-bottom: 0;
